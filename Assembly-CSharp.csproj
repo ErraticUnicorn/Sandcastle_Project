@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{A3D180AB-6458-6E1B-9959-F8ED06E3FFE8}</ProjectGuid>
+	<ProjectGuid>{A81428B2-3C9B-15D5-5E8C-82B8E400FB60}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,7 +45,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\digging_script.cs" />
+     <Compile Include="Assets\Scripts\digging_script.cs" />
+     <Compile Include="Assets\Scripts\ocean_script.cs" />
+     <Compile Include="Assets\Scripts\sandcastle_health.cs" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
